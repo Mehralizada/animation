@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: div;
+    animation-duration: 4s;
+    animation-delay: 2sn;
+}
+
+@keyframes div {
+    0% {
+        left: 0;
+        top: 0; 
+        background-color: green;
+        
+
+    }
+    25% {
+        
+        left: 200px;
+        top: 0px;
+        
+        background-color: blue;
+        
+    }
+    50% {
+        background-color: blue;
+        left: 200px;
+        top: 200px;
+    }
+    75% {
+        background-color: blue;
+        left: 0px;
+        top: 200px;
+    }
+
+    100% {
+        background-color: orange;
+        left: 0px;
+        top: 0px;
+    }
+}
